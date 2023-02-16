@@ -19,6 +19,20 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background: #f2f2f2;
+  display: flex;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+  background-image: url(/images/logo_place_header.svg);
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
