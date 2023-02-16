@@ -36,7 +36,7 @@
   left: 64px;
 }
 
-.title {
+.header__title {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -44,9 +44,10 @@
   display: flex;
   align-items: center;
   padding-left: 64px;
+  z-index: 2;
 }
 
-.subtitle {
+.header__subtitle {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
@@ -54,12 +55,32 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
+  z-index: 2;
+}
+
+.header__ink {
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__mail-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
